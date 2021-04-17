@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 190px;
+    min-width: 320px;
+    background-color: #FFAB00;
+}
+
+header img {
+    width: 300px;
+    align-self: center;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+}
+
+.teen-img-container {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 70vh;
+    background-image: url("../img/team.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.teen-titans-card {
+    padding-bottom: 1rem;
+    width: 90%;
+    min-width: 320px;
+    max-width: 400px;
+    height: auto;
+    margin: 25px auto;
+    padding: 15px;
+    background-color:#e7f5ff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+}
+
+.container-cards h1 {
+    font-size: 1.9rem;
+    color:#565656;
+    font-weight: bold;
+    text-align: center;
+}
+
+.teen-titans-card img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.35);
+}
+
+.footer-img-background {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    background-image: url("../img/teen-titans-go.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+}
+
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.footer-left {
+    display: flex;
+}
+
+.footer-left ul{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.footer-left ul li {
+    margin: 5px 10px;
+  }
+
+.footer-right img{
+    width: 50%;
+}
+
+
+
+
+
